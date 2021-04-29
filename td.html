@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>To do</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="td.css">
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            <label for="new-task">Nom</label><input id="new-task" type="text"><button>Ajouter</button>
+        </p>
+
+        <h3>Contenu</h3>
+        <ul id="incomplete-tasks">
+            <li><input type="checkbox"><label>Salle de Sport</label><input type="text"><button
+                    class="edit">Modifier</button><button class="delete">Supprimer</button></li>
+            <li><input type="checkbox"><label>Anniversaire</label><input type="text"><button
+                    class="edit">Modifier</button><button class="delete">Supprimer</button></li>
+
+        </ul>
+
+        <h3>Terminé</h3>
+        <ul id="completed-tasks">
+            <li><input type="checkbox" checked><label>Cours Java</label><input type="text"><button
+                    class="edit">Modifier</button><button class="delete">Supprimer</button></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="td.css"></script>
+
+</body>
+
+</html>
